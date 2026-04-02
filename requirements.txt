@@ -1,0 +1,43 @@
+# ============================================================
+# Backend Dependencies
+# File: backend/requirements.txt
+# ============================================================
+
+# Web Framework
+fastapi==0.110.0
+uvicorn[standard]==0.27.0
+
+# Database
+motor==3.3.2
+pymongo==4.6.1
+
+# Auth
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.9
+
+# Config
+pydantic==2.5.3
+pydantic-settings==2.1.0
+python-dotenv==1.0.0
+
+# Async file ops
+aiofiles==23.2.1
+
+# Email
+# (builtin smtplib)
+
+# AI/ML (optional - install based on use case)
+# numpy==1.26.3
+# pillow==10.2.0
+# ultralytics==8.1.0        # YOLO v8
+# tensorflow==2.15.0        # TensorFlow
+# transformers==4.37.0      # HuggingFace NLP
+
+# Firebase (optional)
+# firebase-admin==6.4.0
+
+# Testing
+pytest==7.4.4
+pytest-asyncio==0.23.3
+httpx==0.26.0
